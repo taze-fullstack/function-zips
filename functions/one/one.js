@@ -1,6 +1,7 @@
 const { RECAPTCHA_SECRET_KEY } = process.env
 
 const axios = require('axios')
+const hello = 'world'
 
 const secretKey = RECAPTCHA_SECRET_KEY
 
